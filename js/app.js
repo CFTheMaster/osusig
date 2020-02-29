@@ -12,7 +12,7 @@ $(function() {
             var url = "sig.php?";
 
             url += "colour=" + colour.replace('#', "hex");
-            url += "&uname=" + encodeURIComponent(($("input[name=uname]").val() || "Lemmmy"));
+            url += "&uname=" + encodeURIComponent(($("input[name=uname]").val() || "computerfreaker"));
             if(mode > 0) url += "&mode=" + mode;
             url += (ppmode >= 0 ? "&pp=" + ppmode : "");
 
@@ -36,7 +36,7 @@ $(function() {
             url += ($("input[name=adv-xp-bar]").prop('checked') ? "&xpbar" : "");
             url += ($("input[name=adv-xp-bar-hex]").prop('checked') ? "&xpbarhex" : "");
 
-            var fullurl = "http://lemmmy.pw/osusig/" + url;
+            var fullurl = "http://osu.computerfreaker.pw/" + url;
 
             $("img.preview").remove();
 

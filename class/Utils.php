@@ -9,12 +9,12 @@ class Utils
 	/**
 	 * The useragent to use for cURL requests to the online indicator
 	 */
-	const USER_AGENT = "osu!next Signature Generator - lemmmy.pw/osusig/ - v3";
+	const USER_AGENT = "osu!next Signature Generator - osu.computerfreaker.pw/osusig/ - v3";
 
 	/**
 	 * The URL for the online indicator API thingy
 	 */
-	const ONLINE_URL = "http://onlineindicator.lemmmy.pw";
+	const ONLINE_URL = "http://onlineindicator.computerfreaker.pw";
 
 	/**
 	 * The memcache singleton
