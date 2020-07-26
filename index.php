@@ -24,7 +24,7 @@
     <body>
         <div class="page-header">
             <span class="title">osu!next Signature Generator</span><br>
-            <span class="shameless-self-promotion">by <a href="https://osu.ppy.sh/users/6116299">computerfreaker</a> - source code available <a href="https://github.com/Lemmmy/osusig">here</a></span>
+            <span class="shameless-self-promotion">by <a href="https://osu.ppy.sh/users/6116299">computerfreaker</a> - source code available <a href="https://github.com/CFTheMaster/osusig">here</a></span>
         </div>
         <header>Choose a colour</header>
         <article>
